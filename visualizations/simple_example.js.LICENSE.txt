@@ -1,5 +1,5 @@
 /*
-object-assign
+object-assign xxx
 (c) Sindre Sorhus
 @license MIT
 */
