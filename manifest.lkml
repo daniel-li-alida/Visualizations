@@ -1,14 +1,14 @@
 constant: vis_id {
-    value: "TEST_VISUALIZATION"
+    value: "WORD_CLOUD"
     export: override_optional
 }
 constant: vis_label {
-    value: "TEST_VISUALIZATION"
+    value: "WORD CLOUD"
     export: override_optional
 }
 visualization: {
     id: "@{vis_id}"
     label: "@{vis_label}"
-    file: "visualizations/simple_example.js"
+    file: "visualizations/word_cloud.js"
     dependencies: []
 }
