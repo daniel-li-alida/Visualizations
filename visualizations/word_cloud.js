@@ -23908,14 +23908,15 @@ var wordCloudVis = {
             default: 'impact',
             order: 4,
         },
-        fontStyle: {
-            type: 'string',
-            label: 'Font style',
-            display: 'radio',
-            values: [{ normal: 'normal' }, { italic: 'italic' }, { oblique: 'oblique' }],
-            order: 5,
-        },
         /*
+        fontStyle: {
+          type: 'string',
+          label: 'Font style',
+          display: 'radio',
+          values: [{ normal: 'normal' }, { italic: 'italic' }, { oblique: 'oblique' }],
+          order: 5,
+        },
+
         fontWeight: {
           type: 'string',
           label: 'Font weight',
