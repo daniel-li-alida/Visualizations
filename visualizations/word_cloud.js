@@ -1,15 +1,15 @@
 (function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory();
-	else if(typeof define === 'function' && define.amd)
-		define([], factory);
-	else if(typeof exports === 'object')
-		exports["word_cloud"] = factory();
-	else
-		root["word_cloud"] = factory();
+  if(typeof exports === 'object' && typeof module === 'object')
+    module.exports = factory();
+  else if(typeof define === 'function' && define.amd)
+    define([], factory);
+  else if(typeof exports === 'object')
+    exports["word_cloud"] = factory();
+  else
+    root["word_cloud"] = factory();
 })(self, () => {
 return /******/ (() => { // webpackBootstrap
-/******/ 	var __webpack_modules__ = ({
+/******/  var __webpack_modules__ = ({
 
 /***/ 705:
 /***/ ((module) => {
@@ -11521,7 +11521,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;function _typeof(obj) { "@babel/helpers - type
     !(__WEBPACK_AMD_DEFINE_RESULT__ = (function () {
       return impl;
     }).call(exports, __webpack_require__, exports, module),
-		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+    __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
   } else {
     this.alea = impl;
   }
@@ -11644,7 +11644,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;function _typeof(obj) { "@babel/helpers - type
     !(__WEBPACK_AMD_DEFINE_RESULT__ = (function () {
       return impl;
     }).call(exports, __webpack_require__, exports, module),
-		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+    __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
   } else {
     this.tychei = impl;
   }
@@ -11739,7 +11739,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;function _typeof(obj) { "@babel/helpers - type
     !(__WEBPACK_AMD_DEFINE_RESULT__ = (function () {
       return impl;
     }).call(exports, __webpack_require__, exports, module),
-		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+    __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
   } else {
     this.xor128 = impl;
   }
@@ -11922,7 +11922,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;function _typeof(obj) { "@babel/helpers - type
     !(__WEBPACK_AMD_DEFINE_RESULT__ = (function () {
       return impl;
     }).call(exports, __webpack_require__, exports, module),
-		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+    __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
   } else {
     this.xor4096 = impl;
   }
@@ -12054,7 +12054,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;function _typeof(obj) { "@babel/helpers - type
     !(__WEBPACK_AMD_DEFINE_RESULT__ = (function () {
       return impl;
     }).call(exports, __webpack_require__, exports, module),
-		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+    __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
   } else {
     this.xorshift7 = impl;
   }
@@ -12159,7 +12159,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;function _typeof(obj) { "@babel/helpers - type
     !(__WEBPACK_AMD_DEFINE_RESULT__ = (function () {
       return impl;
     }).call(exports, __webpack_require__, exports, module),
-		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+    __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
   } else {
     this.xorwow = impl;
   }
@@ -12453,7 +12453,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     !(__WEBPACK_AMD_DEFINE_RESULT__ = (function () {
       return seedrandom;
     }).call(exports, __webpack_require__, exports, module),
-		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+    __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
   } else {} // End anonymous scope, and pass initial values.
 
 })( // global: `self` in browsers (including strict mode and web workers),
@@ -12811,114 +12811,114 @@ module.exports = styleTagTransform;
 
 /***/ })
 
-/******/ 	});
+/******/  });
 /************************************************************************/
-/******/ 	// The module cache
-/******/ 	var __webpack_module_cache__ = {};
-/******/ 	
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/ 		// Check if module is in cache
-/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
-/******/ 		if (cachedModule !== undefined) {
-/******/ 			return cachedModule.exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			id: moduleId,
-/******/ 			loaded: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/ 	
-/******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/ 	
-/******/ 		// Flag the module as loaded
-/******/ 		module.loaded = true;
-/******/ 	
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/ 	
+/******/  // The module cache
+/******/  var __webpack_module_cache__ = {};
+/******/
+/******/  // The require function
+/******/  function __webpack_require__(moduleId) {
+/******/    // Check if module is in cache
+/******/    var cachedModule = __webpack_module_cache__[moduleId];
+/******/    if (cachedModule !== undefined) {
+/******/      return cachedModule.exports;
+/******/    }
+/******/    // Create a new module (and put it into the cache)
+/******/    var module = __webpack_module_cache__[moduleId] = {
+/******/      id: moduleId,
+/******/      loaded: false,
+/******/      exports: {}
+/******/    };
+/******/
+/******/    // Execute the module function
+/******/    __webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/    // Flag the module as loaded
+/******/    module.loaded = true;
+/******/
+/******/    // Return the exports of the module
+/******/    return module.exports;
+/******/  }
+/******/
 /************************************************************************/
-/******/ 	/* webpack/runtime/amd define */
-/******/ 	(() => {
-/******/ 		__webpack_require__.amdD = function () {
-/******/ 			throw new Error('define cannot be used indirect');
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/amd options */
-/******/ 	(() => {
-/******/ 		__webpack_require__.amdO = {};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
-/******/ 			__webpack_require__.d(getter, { a: getter });
-/******/ 			return getter;
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = (exports, definition) => {
-/******/ 			for(var key in definition) {
-/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
-/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-/******/ 				}
-/******/ 			}
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/global */
-/******/ 	(() => {
-/******/ 		__webpack_require__.g = (function() {
-/******/ 			if (typeof globalThis === 'object') return globalThis;
-/******/ 			try {
-/******/ 				return this || new Function('return this')();
-/******/ 			} catch (e) {
-/******/ 				if (typeof window === 'object') return window;
-/******/ 			}
-/******/ 		})();
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/node module decorator */
-/******/ 	(() => {
-/******/ 		__webpack_require__.nmd = (module) => {
-/******/ 			module.paths = [];
-/******/ 			if (!module.children) module.children = [];
-/******/ 			return module;
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/nonce */
-/******/ 	(() => {
-/******/ 		__webpack_require__.nc = undefined;
-/******/ 	})();
-/******/ 	
+/******/  /* webpack/runtime/amd define */
+/******/  (() => {
+/******/    __webpack_require__.amdD = function () {
+/******/      throw new Error('define cannot be used indirect');
+/******/    };
+/******/  })();
+/******/
+/******/  /* webpack/runtime/amd options */
+/******/  (() => {
+/******/    __webpack_require__.amdO = {};
+/******/  })();
+/******/
+/******/  /* webpack/runtime/compat get default export */
+/******/  (() => {
+/******/    // getDefaultExport function for compatibility with non-harmony modules
+/******/    __webpack_require__.n = (module) => {
+/******/      var getter = module && module.__esModule ?
+/******/        () => (module['default']) :
+/******/        () => (module);
+/******/      __webpack_require__.d(getter, { a: getter });
+/******/      return getter;
+/******/    };
+/******/  })();
+/******/
+/******/  /* webpack/runtime/define property getters */
+/******/  (() => {
+/******/    // define getter functions for harmony exports
+/******/    __webpack_require__.d = (exports, definition) => {
+/******/      for(var key in definition) {
+/******/        if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/          Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/        }
+/******/      }
+/******/    };
+/******/  })();
+/******/
+/******/  /* webpack/runtime/global */
+/******/  (() => {
+/******/    __webpack_require__.g = (function() {
+/******/      if (typeof globalThis === 'object') return globalThis;
+/******/      try {
+/******/        return this || new Function('return this')();
+/******/      } catch (e) {
+/******/        if (typeof window === 'object') return window;
+/******/      }
+/******/    })();
+/******/  })();
+/******/
+/******/  /* webpack/runtime/hasOwnProperty shorthand */
+/******/  (() => {
+/******/    __webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/  })();
+/******/
+/******/  /* webpack/runtime/make namespace object */
+/******/  (() => {
+/******/    // define __esModule on exports
+/******/    __webpack_require__.r = (exports) => {
+/******/      if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/        Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/      }
+/******/      Object.defineProperty(exports, '__esModule', { value: true });
+/******/    };
+/******/  })();
+/******/
+/******/  /* webpack/runtime/node module decorator */
+/******/  (() => {
+/******/    __webpack_require__.nmd = (module) => {
+/******/      module.paths = [];
+/******/      if (!module.children) module.children = [];
+/******/      return module;
+/******/    };
+/******/  })();
+/******/
+/******/  /* webpack/runtime/nonce */
+/******/  (() => {
+/******/    __webpack_require__.nc = undefined;
+/******/  })();
+/******/
 /************************************************************************/
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
@@ -23777,15 +23777,15 @@ var styleTagTransform_default = /*#__PURE__*/__webpack_require__.n(styleTagTrans
 var dist_tippy = __webpack_require__(110);
 ;// CONCATENATED MODULE: ./node_modules/tippy.js/dist/tippy.css
 
-      
-      
-      
-      
-      
-      
-      
-      
-      
+
+
+
+
+
+
+
+
+
 
 var options = {};
 
@@ -23793,7 +23793,7 @@ options.styleTagTransform = (styleTagTransform_default());
 options.setAttributes = (setAttributesWithoutAttributes_default());
 
       options.insert = insertBySelector_default().bind(null, "head");
-    
+
 options.domAPI = (styleDomAPI_default());
 options.insertStyleElement = (insertStyleElement_default());
 
@@ -23808,15 +23808,15 @@ var update = injectStylesIntoStyleTag_default()(dist_tippy/* default */.Z, optio
 var scale = __webpack_require__(623);
 ;// CONCATENATED MODULE: ./node_modules/tippy.js/animations/scale.css
 
-      
-      
-      
-      
-      
-      
-      
-      
-      
+
+
+
+
+
+
+
+
+
 
 var scale_options = {};
 
@@ -23824,7 +23824,7 @@ scale_options.styleTagTransform = (styleTagTransform_default());
 scale_options.setAttributes = (setAttributesWithoutAttributes_default());
 
       scale_options.insert = insertBySelector_default().bind(null, "head");
-    
+
 scale_options.domAPI = (styleDomAPI_default());
 scale_options.insertStyleElement = (insertStyleElement_default());
 
@@ -23855,15 +23855,15 @@ var WordCloud = function (props) {
         colors: config.colors,
         enableTooltip: true,
         deterministic: false,
-        //fontFamily: config.fontFamily,
+        fontFamily: 'impact',
         fontSizes: [config.minFontSize, config.maxFontSize],
-        //fontStyle: config.fontStyle,
-        //fontWeight: config.fontWeight,
+        fontStyle: 'normal',
+        fontWeight: 'normal',
         padding: 1,
         rotations: config.rotations,
         rotationAngles: [config.rotationAngle1, config.rotationAngle2],
-        //scale: config.scale as Scale,
-        //spiral: config.spiral as Spiral,
+        scale: 'sqrt',
+        spiral: 'archimedean',
         transitionDuration: 1000,
     };
     if (!word || !count) {
@@ -23902,13 +23902,14 @@ var wordCloudVis = {
             default: 60,
             order: 3,
         },
-        fontFamily: {
-            type: 'string',
-            label: 'Font family',
-            default: 'impact',
-            order: 4,
-        },
         /*
+        fontFamily: {
+          type: 'string',
+          label: 'Font family',
+          default: 'impact',
+          order: 4,
+        },
+
         fontStyle: {
           type: 'string',
           label: 'Font style',
@@ -23916,7 +23917,7 @@ var wordCloudVis = {
           values: [{ normal: 'normal' }, { italic: 'italic' }, { oblique: 'oblique' }],
           order: 5,
         },
-    
+
         fontWeight: {
           type: 'string',
           label: 'Font weight',
@@ -23978,7 +23979,7 @@ looker.plugins.visualizations.add(wordCloudVis);
 
 })();
 
-/******/ 	return __webpack_exports__;
+/******/  return __webpack_exports__;
 /******/ })()
 ;
 });
